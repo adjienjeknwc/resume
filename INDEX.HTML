@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aditi's- Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="profile.jpg" alt="ADITI VERMA">
+            </div>
+            <div class="title">
+                <h1 class="highlight"><span>ADITI VERMA</span></h1>
+
+                <h3>front end developer </h3>
+                <p>Passionate tech enthusiast and B.Tech (CSE - IoT & IS) student at Manipal University Jaipur. Skilled in Java, C, JavaScript, HTML, and CSS, with a strong foundation in frontend development. Currently diving into backend technologies to become a versatile full-stack developer. Always eager to learn, innovate, and build impactful solutions. Excited to explore new opportunities and connect with like-minded professionals!</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-column">
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <p>📞 8279524227</p>
+                    <p>📧 vermaaditi460@gmail.com</p>
+                    
+                </section>
+
+                <section class="experience">
+                    <P>languages learnt -java ,C</P>
+                    <div class="icon-container">
+                        <img src="java icon jnew.jpg" width="40">
+                        <img src="c icon.png" width="40">
+                        
+                    </div>
+    
+
+                    <p>frontend develpoper -javascript,CSS,HTML</p>
+                    
+                    <div class="icon-container">
+                        <img src="javascript.webp" width="40">
+                        <img src="css.webp" width="40">
+                        <img src="html.png" width="40">
+                    </div>
+    
+                    <p>currently learning basics of UI AND UX designing </p>
+                </section>
+                <section class="certifications">
+                    <h3>Certifications</h3>
+                    <ul id="cert-list">
+                        <head>
+                            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+                        </head>
+                        
+                            <p style="font-family: 'Poppins', sans-serif; color: #d4bd23;">
+                                Introduction to Networking by Cisco
+                            </p>
+                        
+                        
+                        
+                        <li><img src="/Users/aditi/Documents/resume /index.html/cisco certificate  copy.jpg" alt="cisco certificate" width="300"></li>
+                        
+                    </ul>
+                    
+                        
+                        
+                        
+                    
+                </section>
+                </section>
+                
+                <!-- Modal for showing the certificate image -->
+                <div id="cert-modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="cert-img">
+                </div>
+                
+
+                <section class="software">
+                    <h2>Software</h2>
+                    <div class="software-icons">
+                        <img src="vs code icon.webp" alt="VS code" title="vs code">
+                        
+                        <img src="data:image/png;base64,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" alt="Figma" title="figma">
+                    </div>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="education">
+                    <h2>Education</h2>
+                    <p>📚 schooling -Summer Valley School</p>
+                    <p>📚 btech in CSE specialization in IOT AND IS </p>
+
+                    <section id="contact-form" style="margin-top: 50px;">
+                        <h2>Contact Me!</h2>
+                        <form action="submit_form.php" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br><br>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                    
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+                    
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+                    </section>
+                    </div>
+                </body>
+                </html>
+                    
